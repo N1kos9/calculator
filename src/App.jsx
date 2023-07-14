@@ -82,6 +82,7 @@ function App() {
           setDisplay(display + event.target.innerHTML)
         }
       }
+      
       else if (result == '0' && button != 'decimal') {
         setResult(event.target.innerHTML)
         setDisplay(event.target.innerHTML)
