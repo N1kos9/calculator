@@ -13,7 +13,7 @@ body {
     align-items: center;
     height: 100vh;
     user-select: none;
-    background-color: #111518;
+    background: linear-gradient(to right, #d2eb55, #28c840)
 }
 #button-container {
     display: grid;
@@ -27,7 +27,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     width: 330px;
-    padding: 25px;
+    padding: 35px;
     border-radius: 15px 15px 0 0;
     background-color: #222327;
     position: relative;
@@ -37,7 +37,7 @@ body {
     text-align: right;
 }
 #display {
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 3px 3px 0 0;
     color: 3;
     color: white;
@@ -78,7 +78,7 @@ body {
     font-size: 30px;
     height: 60px;
     width: 60px;
-    margin: 5px;
+    margin: 10px;
     border: none;
     border-radius: 3px;
     color: #fff;
@@ -87,6 +87,12 @@ body {
     align-items: center;
     justify-content: center;
     background-color: transparent;
+    transition: .52s;
+    border-radius: 20px;
+
+}
+.button:hover {
+    background-color: #333;
 }
 #equals,
 #add,
