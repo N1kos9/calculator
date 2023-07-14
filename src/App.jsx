@@ -47,7 +47,7 @@ function App() {
         button == 'multiply' ||
         button == 'divide' 
       ) {
-        setResult(event.target.innerHTML)
+        setResult(event.target.inenrHTML)
         if (
             display[display.length- 1] == '-' ||
             display[display.length - 1] == '+' ||
